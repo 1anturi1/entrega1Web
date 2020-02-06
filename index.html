@@ -8,108 +8,130 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <title>Hello, world!</title>
+    <title>Andres Anturi</title>
+    <link rel="shortcut icon" href="/src/favicon.ico">
+
   </head>
   <body>
+<!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="/src/luchador.jpg" width="25" height="25" class="d-inline-block align-top" alt="">
+            Andrés
+          </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav" id="elementos">
+            <a class="nav-item nav-link" href="#wai" id=#elem1>Who am I? <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#pro">Proyects</a>
+            <a class="nav-item nav-link" href="#inte">Interests</a>
+            <a class="nav-item nav-link" href="#expe">Experience</a>
+          </div>
+        </div>
+      </nav>
+
 <div class="container-fluid">
     <!-- Banner -->    
     <div class="row" id= "banner">
         <div class="col-12"> <h1>Banner</h1></div>    
     </div>
-<!-- Fila del medio -->
-    <div class="row" >
-         <!-- menu que se esconde -->
-        <div class="col-2 d-none d-md-block" id= "leftmenu">
-            <h2>left menu </h2>
-        </div>
-         <!-- columna de contenido -->
-        <div class="col-sm-12 col-md-10  col-lg-10">
-            <div class="row" id="top">
-                <h2>  Top menu </h2>
-            </div>
-            <!-- fila de contenido a y b-->
-            <div class="row">
-                <div class="col-sm-12 col-md-12 col-lg-6">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <h2>Main content A </h2>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+          <!--contenido-->
+                <div class="row">
+                    <!--Who am i-->
+                    <div class="col-12"><h2 id="wai">Who am I? </h2></div>
+                    <!--Fila de texto-->
+                    <div class="col-12">
+                       <div class="row">
+                       <div class="col"> <img src = "/src/andresillo.jpg" id=#imagen1 width= "100px" height= "100px" alt="Facebook profile picture"> 
+                          Meeeee </img></div>
+                       
+                    </div>
+                    </div>
                 </div>
-                <div class="col-sm-12 col-md-12 col-lg-6">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <h2>Main content B </h2>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
+            <hr>
+                <div class="row">
+                    <!--proyects-->
+                    <div class="col-12"><h2 id="pro">Proyects </h2></div>
+                    <div class="col-12">
+                        <p> All of the proyects that I developed were about 
+                            differents assignatures in my career. you can visit my github
+                            <a href="https://github.com/1anturi1">repository</a></p>
+                    </div>
                 </div>
-            </div> 
-            <!-- imagenes 1 -->
-            <div class="row">
-                <div class="col-sm-6 col-md-4 col-lg-2 impar">
-                    <h2>Photo 1</h2>
+                <hr>
+                <div class="row">
+                    <!---Interests--->
+                    <div class="col-12"><h2 id ="inte">Interests </h2></div>
+                    <div class="col-12">
+                        <div class="col"><h3>Longboarding</h3></div>
+                        <div class="col-6">    
+                        <div class="video-container"><iframe frameborder="0" scrolling="no" width="569.6" height="320" type="text/html" src="https://www.youtube.com/embed/RVkqTuNEbhs?autoplay=0&fs=1&iv_load_policy=3&showinfo=1&rel=1&cc_load_policy=0&start=12&end=0&"></iframe>
+                        </div>
+                        </div>
+                        <div class="col"><a>Some fucking text</a></div>
+
+                        <div class="col"><h3>Music</h3></div>                        
+                        <div class="col"><a>Some fucking text</a></div>
+                        <div class="col">    
+                            <audio src="/src/lucid dreams.mp3" preload="none" controls></audio>
+                        </div>
+                    </div>
+
                 </div>
-                <div class="col-sm-6 col-md-4 col-lg-2 par">
-                    <h2>Photo 2 </h2>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-4 impar">
-                    <h2>Photo 3 </h2>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-2 par">
-                    <h2>Photo 4 </h2>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-2 impar">
-                    <h2>Photo 5</h2>
-                </div>
-            </div> 
-             <!-- fila de contenido c-->
-             <div class="row">
-                <div class="col-12">
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                    <h2>Main content c </h2>
-                    <br>
-                    <br>
-                    <br>
-                    <br>
-                </div>
-            </div> 
-            <!-- imagenes 2 -->
-            <div class="row">
-                <div class="col-sm-6 col-md-4 col-lg-2 par">
-                    <h2>Photo 6</h2>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-2 impar">
-                    <h2>Photo 7 </h2>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-4 par">
-                    <h2>Photo 8 </h2>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-2 impar">
-                    <h2>Photo 9 </h2>
-                </div>
-                <div class="col-sm-6 col-md-4 col-lg-2 par">
-                    <h2>Photo 10 </h2>
-                </div>
-            </div>       
+                <hr>
+                <div class="row">
+                    <!---Experience--->
+                    <div class="col-12"><h2 id ="expe">Experience </h2></div>
+                    <div class="col-12">
+
+                        <a>Some fucking experiences</a>
+
+                    </div>
+                </div>    
+                <hr>                   
+             
         </div>
     </div>
-   <!-- footer -->
-   <div class="row" id= "footer">
-    <div class="col"> <h1>Footer</h1></div>    
-    </div>
+  
 
 </div>
+
+ <!-- footer --> 
+
+    <!----------- Footer ------------>
+    <footer class="footer-bs">
+        <div class="row">
+        	<div class="col-md-4 footer-brand animated fadeInLeft">
+            	<h2>Logo</h2>
+                <p>Suspendisse hendrerit tellus laoreet luctus pharetra. Aliquam porttitor vitae orci nec ultricies. Curabitur vehicula, libero eget faucibus faucibus, purus erat eleifend enim, porta pellentesque ex mi ut sem.</p>
+                <p>© 2014 BS3 UI Kit, All rights reserved</p>
+            </div>
+        	<div class="col-md-4 footer-nav animated fadeInUp">
+            	<div class="col-md-6">
+                    <ul class="list">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Contacts</a></li>
+                        <li><a href="#">Terms & Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        	<div class="col-md-4  footer-social animated fadeInDown">
+            	<h4>Follow Us</h4>
+            	<ul>
+                	<li><a href="#">Facebook</a></li>
+                	<li><a href="#">Twitter</a></li>
+                	<li><a href="#">Instagram</a></li>
+                	<li><a href="#">RSS</a></li>
+                </ul>
+            </div>
+        	
+        </div>
+    </footer>
+  <!-- Footer designed by "http://enfoplus.net" -->
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
