@@ -1,6 +1,4 @@
 
-
-/* change the brand and text color */
 .navbar .navbar-brand,
 .navbar .collapse .navbar-nav .nav-link {
     color: white;
@@ -15,10 +13,6 @@ hr, .hrcolor {
     color: lightsteelblue;
     background-color: lightsteelblue;
  }
- #imagen1{
-    vertical-align: middle;
-    color: orange; 
-}
  .video-container {
     position: relative;
     padding-bottom: 56.25%;
@@ -33,8 +27,7 @@ hr, .hrcolor {
     height: 100%;
     }
 
-
- 
+ /*I took this code from "http://enfoplus.net" */
 .footer-bs {
     background-color: #353941;
 	padding: 60px 40px;
